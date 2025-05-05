@@ -27,15 +27,25 @@ The project contains two main components:
 ### Project Folder Structure:
 
 library-api-db/
+
 │
+
 ├── node_modules/ # Installed dependencies
+
 ├── db/
+
 │ └── answers.sql # SQL file for creating the database and tables
+
 ├── index.js # Main server file (API logic)
+
 ├── .env # Environment variables file (for DB connection)
+
 ├── .gitignore # Git ignore file to prevent committing sensitive files
+
 ├── README.md # Project documentation
+
 ├── package.json # Project dependencies and scripts
+
 └── package-lock.json # Lock file for npm dependencies
 
 
